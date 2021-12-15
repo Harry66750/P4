@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #4682B4;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -779,7 +779,15 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    padding: 0em 3em;
+    background: #2F4F4F;
+    border-radius: 8px;
+    letter-spacing: 0.20em;
+    line-height: 4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
     color: #FFFFFF!important;
 }
 
