@@ -1439,6 +1439,14 @@ img {
     max-width: 100%;
     height: auto
 }
+@media screen and (max-width:767px) {
+    .img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: flex;
+        position: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 .img-rounded {
     border-radius: 6px
