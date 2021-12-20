@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -660,6 +660,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    border-radius: 15px;
 }
 
 .hero-bloc-text-sub {
@@ -742,13 +743,13 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
 }
-
-/*@media (min-width: 768px) {
-.portfolio-thumb {
-    margin-left: 24px;
-
+@media (max-width: 768px){
+    .portfolio-thumb {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-}*/
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -1054,4 +1055,44 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+@media (max-width: 768px) {
+	.icon-md, .social {
+		padding-left: 28px;
+		text-align: center;
+		display: flex;
+		font-size: 20px!important;
+	}
+}
+
+@media (max-width: 480px) {
+	.icon-md, .social {
+		padding-left: 23px;
+		text-align: center;
+		display: flex;
+		font-size: 20px!important;
+	}
+}
+
+@media (max-width: 768px) {
+.mg-md {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px!important;
+}
+}
+
+@media (max-width: 768px) {
+.btn-atomic-tangerine {
+    padding: 0em 3em;
+    background: #2d2c2b;
+    border-radius: 18px;
+    letter-spacing: 0.20em;
+    line-height: 4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 250;
+    font-size: 0.8em;
+    color: #FFFFFF!important;
+}
 }
