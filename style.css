@@ -1096,3 +1096,9 @@ h4 {
     color: #FFFFFF!important;
 }
 }
+
+@media (min-width: 480px) and (max-width: 768px){
+    .row.row-no-gutters{
+        height: 50px;
+    }
+}
